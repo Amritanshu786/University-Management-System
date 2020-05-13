@@ -1,0 +1,14 @@
+header{
+  background-color: #00ced1;
+}
+table{
+border-collapse: collapse;
+background-color: #fa8072;
+}
+table,th,td{
+border:2px solid black;
+}
+.time_table{
+  width: 1100px;
+  padding-left: 50px;
+}

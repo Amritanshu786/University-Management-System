@@ -1,0 +1,115 @@
+header{
+  background-color: blue;
+}
+nav{
+float:left;
+}
+#vl{
+  margin-top: -8px;
+  border-right: 3px solid green;
+  height: 1150px;
+}
+.mainbutton{
+  float: right;
+  padding: 20px;
+  padding-right: 35px;
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: #000080;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  cellpadding: 200px;
+}
+.roll_color{
+  background-color: grey;
+  height:1022px;
+  color: #f5fffa;
+}
+#attendance_view{
+  margin-left: 250px;
+  font-size: 200%;
+}
+#logo{
+  padding-left: 50px;
+}
+
+#hl{
+  color: solid green;
+}
+.scrolldown{
+   height: 250px;
+   width: 950px;
+border: 2px solid black;
+margin-left: 250px;
+overflow: scroll;
+background-color: #5b84b1ff;
+}
+#attendance_subject{
+  margin-top: 5px;
+  background-color: #fc766aff;
+
+}
+#attendance_cse202{
+  color: white;
+  margin: 4px;
+}
+.attendance_nav{
+  float: left;
+}
+.attendance_vl{
+  padding-left: 3px;
+  padding-right: 2px;
+  border-right: 3px solid white;
+}
+.time_table{
+  margin-left: 250px;
+  font-size: 200%;
+}
+table{
+  border-collapse: collapse;
+  width: 950px;
+  height: 400px;
+}
+table , th, td{
+  border: 2px solid black;
+}
+td{
+  text-align: center;
+}
+.scrolldown_table{
+   height: 250px;
+   width: 950px;
+border: 2px solid black;
+margin-left: 250px;
+overflow: scroll;
+background-color: #7fffd4;
+}
+.announcement_view{
+  float: left;
+  margin-left: 28px;
+}
+.announcement_vl{
+  border-right: 2px solid black;
+  margin-top: -50px;
+  height: 420px;
+}
+.teacher_leave{
+  margin-left: 920px;
+}
+
+.announcement_scrolldown{
+  overflow: auto;
+  height: 350px;
+  width: 650px;
+}
+main{
+  padding-bottom: 319px;
+  border-bottom:2px solid black;
+}

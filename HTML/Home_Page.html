@@ -1,0 +1,263 @@
+<!doctype html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="../CSS/home.css">
+  <script src="../JavaScript/Home.js"> </script>
+</head>
+<body>
+  <header>
+    <div><img src="../lpu_images/logo.png" id="logo" alt="lpu_logo">
+      <div class="mainbutton">
+        <input type="button" name="Home" value="Home" style="width:170px;" onclick="home()" class="button">
+        <input type="button" name="Time Table" value="Time Table" onclick="time_table()" class="button">
+        <input type="button" value="EXAMINATION" onclick="examination()" class="button">
+        <input type="button" value="Change Password" onclick="change_password()" class="button">
+        <input type="button" value="Logout" onclick="logout()" class="button">
+      </div>
+    </div>
+    <hr id="hl">
+  </header>
+  <nav>
+    <div id="vl">
+      <img align="left" src="../lpu_images/mypic.jpg" alt="Profile Image" width="100px" height="100px">
+      <br> &emsp; Welcome<br> &emsp; Amritanshu<br><br><br>
+      <hr>
+      <div class="roll_color">
+      <h4>Roll no - RK19GA26 <br><hr>
+        Group - 1 (Section::K19GA)<br><hr>
+        Program - P132:: <br><hr>
+        B.Tech Computer Science(2019)<br><hr>
+        Books Issued from Library - 0<hr></h4>
+
+  </nav>
+  </div>
+  <main>
+    <section >
+      <h1 id="attendance_view">Attendance View</h1>
+      <hr>
+      <div class="scrolldown">
+        <div id="attendance_subject" style="height:30px;width:100%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">CSE202</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; OBJECT ORIENTED PROGRAMMING &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 100%</h1>
+        </div><br>
+        <div id="attendance_subject" style="height:30px;width:95%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">CSE326</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; INTERNET PROGRAMMING LABORATORY &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 95%</h1>
+        </div>
+        <br>
+        <div id="attendance_subject" style="height:30px;width:97%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">ECE213</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; DIGITAL ELECTRONICS &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 97%</h1>
+        </div><br>
+        <div id="attendance_subject" style="height:30px;width:85%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">ECE216</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; DIGITAL ELECTRONICS LABORATORY &emsp; &emsp; &emsp; &emsp; &emsp; 85%</h1>
+        </div>
+        <br>
+        <div id="attendance_subject" style="height:30px;width:100%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">MTH166</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; DIFFERENTIAL EQUATIONS AND VECTOR CALCULUS &emsp; &emsp; &emsp; 100%</h1>
+        </div><br>
+        <div id="attendance_subject" style="height:30px;width:93%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">PEL121</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; COMMUNICATION SKILLS-I &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 93%</h1>
+        </div>
+        <br>
+        <div id="attendance_subject" style="height:30px;width:90%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">MEC103</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; ENGINEERING GRAPHICS &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 90%</h1>
+        </div>
+        <br>
+        <div id="attendance_subject" style="height:30px;width:80%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">PHY109</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; ENGINEERING PHYSICS &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 80%</h1>
+        </div><br>
+        <div id="attendance_subject" style="height:30px;width:100%;">
+          <nav class="attendance_nav">
+            <div class="attendance_vl">
+              <h1 id="attendance_cse202">PHY119</h1>
+            </div>
+          </nav>
+          <h1 style="color:#000080"> &emsp; ENGINEERING PHYSICS LABORATORY &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 100%</h1>
+        </div><br>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <h1 class="time_table">Today's Time Table</h1>
+      <hr/>
+      <div class="scrolldown_table">
+        <table>
+          <tr style="background-color:#32cd32;">
+            <th>Time</th>
+            <th>Course</th>
+            <th>Room Number</th>
+            <th>Att. Status</th>
+          </tr>
+          <tr>
+            <td>09-10 AM</td>
+            <td>MTH166</td>
+            <td>33-505X</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>10-11 AM</td>
+            <td>CSE202</td>
+            <td>37-806</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>11-12 AM</td>
+            <td>CSE202</td>
+            <td>37-806</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>01-02 PM</td>
+            <td>PEL121</td>
+            <td>34-707</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>02-03 PM</td>
+            <td>PEL121</td>
+            <td>34-707</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>03-04 PM</td>
+            <td>CSE326</td>
+            <td>37-802</td>
+            <td>Upcoming</td>
+          </tr>
+          <tr>
+            <td>04-05 PM</td>
+            <td>CSE326</td>
+            <td>37-802</td>
+            <td>Upcoming</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <hr>
+    <section>
+      <nav class="announcement_view">
+        <div class="announcement_vl">
+          <h1 style="font-size: 200%; color:#a52a2a">Announcements</h1>
+          <div class="announcement_scrolldown">
+          <h1>1. Duty Leave Confirmation by Student Organization Cell (4/1/2020) </h1>
+          <p>Student Organization Cell, under the aegis of Division of Student Welfare, Lovely Professional<br>
+            University had successfully uploaded all the Duty Leaves for this semester for Student Organizations.
+          </p>
+          <p>If any one have any Query or pending Duty leave can forward an e-mail before 11:00 PM (today)<br>
+            after that we will not consider or accept any Request and Query.<br>
+            For any Queries & Request forward an e-mail on smit.23416@lpu.co.in<br />
+            Note: This announcement will valid only for today till 11:00 PM and only for Student Organization <br />
+            Volunteers and Events.<br>
+            Website - https://www.studentorganisationcell.com<br>
+            YouTube - Student Organization Cell<br>
+            LinkedIn - Student Organization Cell<br>
+            Facebook - Student Organization Cell<br>
+            Instagram - Student Organization Cell<br>
+            Tiktok - Student Organization Cell<br>
+            Snapchat - Student Organization Cell<br>
+            Telegram: Student Organization Cell<br>
+          </p><br\>
+          <h1>2."$1,500 Annual Essay Writing Contest Scholarship" organized by IvyPanda <br>(3/31/2020)</h1>
+          <p>Division of Student Welfare is sharing the online events to participate from your home
+            "$1,500 Annual Essay Writing Contest Scholarship" organized by IvyPanda.<br>
+            All interested students are required to register on the link:<br>
+            https://ivypanda.com/scholarship-writing <br>
+            List of events/competitions, rules and regulation is on the following link:- <br>
+            https://ivypanda.com/scholarship-writing <br>
+            The teams shall be sent on the following terms and condition:<br>
+            No expenses / registration fee shall be bored by University. <br>
+            For More Details Contact:- <br>
+            Mr. Kuldip Kumar Vashisht<br>
+            kuldip.vashisht@lpu.co.in<br>
+          </p><br>
+          <h1>3.  "CTBUH 2020 International Student Tall Building Design Competition"<br>organized by Council on Tall Buildings and Urban Habitat.   (3/31/2020)</h1>
+          <p>Division of Student Welfare is sharing the online events to participate from your home "CTBUH 2020 International Student Tall Building Design
+            Competition" organized by Council on Tall Buildings and Urban Habitat.<br>
+          All interested students are required to register on the link:    <br>
+          https://www.ctbuh.org/research/student-design-competition <br>
+          List of events/competitions, rules and regulation is on the following link:- <br>
+          https://www.ctbuh.org/research/student-design-competition   <br>
+          The teams shall be sent on the following terms and condition:<br>
+          No expenses / registration fee shall be bored by University.  <br>
+          For More Details Contact:- <br>
+          Mr. Kuldip Kumar Vashisht<br>
+          kuldip.vashisht@lpu.co.in<br>
+        </p><br>
+        <h1>4. Student Organization "Young Crazy Minds" is organizing Photography contest "Click 2.0"   (3/31/2020)</h1>
+        <p>Student Organization "Young Crazy Minds" under the aegis of Division of Student Welfare, Lovely Professional University
+          is organizing Photography contest <strong>"Click 2.0".</strong><br>
+            "Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever.
+            It remembers little things, long after you have forgotten everything." So get register for one of the craziest event to know and develop your photography skill.<br>
+            About Event: Theme Based, Location Based and Social  topic, any one of the above topic will be provided to each participant.<br>
+            Benefits: Winner of this contest will get goodies, apart from that they will get chance as official photographer in YCM,  Certificates to every participant.<br>
+            Registration Link: https://tinyurl.com/ycmclickintform<br>
+            For any Queries Contact:<br> Mustak: 9381069146 &emsp; &emsp; Radha:  98774 89391<br>
+            E-mail:  ycm.lpu@gmail.com
+        </p><br>
+        <h1>5. Special Initiative by MHRD for Self Learning   (3/31/2020)</h1>
+        <p>Appended below please find the notification from SWAYAM , MHRD for ALL TEACHERS & STUDENTS  :-<br>
+          On behalf of SWAYAM we are requesting you to inform your students that they can get benefitted by visiting https://www.ndl.gov.in/ or
+          https://ndl.iitkgp.ac.in/ and clicking "Corona Outbreak: Study from home" button on top. <br>
+           They can choose relevant discipline button to access Video lectures, Notes, Questions, Solutions from authoritative sources like Spoken Tutorial,
+           MIT OpenCourseware, NPTEL, Shodhganga, World eBook Library  etc., free of cost, to continue their study effectively during the difficult situation
+           arising out of suspension of classes and closure of libraries due to COVID-19 Lockdown.<br>
+           National Digital Library of India (NDLI) is constantly updating these resources, communication about which are being sent periodically through NDL
+           India Facebook, Instagram, Twitter and LinkedIn pages. So you may also advise your student to follow these channels for regular updates.<br>
+           NDLI ON FB: https://www.facebook.com/NDLIndia<br>
+          NDLI ON INSTAGRAM: https://www.instagram.com/NDLIndia<br>
+          NDLI ON TWITTER: https://www.twitter.com/NDLIndia<br>
+          NDLI ON LINKEDIN: https://www.linkedin.com/NDLIndia<br>
+          Wishing You All the Best # Let's focus on SELF DEVELOPMENT and BE POSITIVE.
+        </p><br/>
+        </div>
+        </div>
+      </nav>
+      <div class="teacher_leave">
+        <h1 class="teacher_on_leave">Teacher on leave</h1>
+        <p> No teacher is on leave</p>
+      </div>
+    </section>
+  </main>
+  <div class="hr">
+  </div>
+</body>
+</html>

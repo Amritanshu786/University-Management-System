@@ -1,0 +1,221 @@
+body {
+background-image: url('../lpu_images/ums_bg.jpg');
+background-attachment: fixed;
+ background-size: 100% 100%;
+}
+
+.main_div_mid {
+width: 610px;
+margin: 0 auto;
+}
+
+.main_div_left {
+width: 610px;
+float: left;
+}
+
+.lpu_logo {
+width: 140px;
+margin: 0 auto;
+margin-top: 10px;
+text-align: center;
+}
+
+.ums_logo {
+width: 383px;
+margin: 0 auto;
+margin-top: 18px;
+text-align: center;
+}
+
+.login_box {
+width: 610px;
+margin-top: 30px;
+background: url('../lpu_images/login_bx_bg.png');
+float: left;
+position: relative;
+-webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+-moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
+}
+
+.red_box {
+background: #e04a31;
+margin-top: 10px;
+height: 52px;
+width: 17px;
+float: left;
+}
+
+.sign_in {
+color: rgb(224, 74, 49);
+float: left;
+font-family: 'segoe_uilight';
+font-size: 35px;
+margin-top: 13px;
+padding-left: 15px;
+}
+
+.download {
+margin-top: 50px;
+color: #FFF;
+font-size: 20px;
+float: left;
+text-align: center;
+width: 100%;
+font-family: 'segoe_uilight';
+}
+
+.download_icon {
+float: left;
+margin-top: 10px;
+text-align: center;
+width: 100%;
+}
+
+.input_type {
+width: 75%;
+padding-right: 30px;
+background: #f8f8f8;
+padding-left: 5px;
+height: 36px;
+font-size: 20px;
+color: #919191;
+border: none;
+font-family: 'segoe_uilight';
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+background: url('../lpu_images/user_icon.png') right no-repeat #f8f8f8;
+}
+
+.input_type:focus {
+-webkit-box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+}
+
+.input_type_pass {
+width: 75%;
+background: #f8f8f8;
+padding-right: 30px;
+padding-left: 5px;
+height: 36px;
+font-size: 20px;
+color: #919191;
+border: none;
+font-family: 'segoe_uilight';
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+background: url('../lpu_images/password_icon.png') right no-repeat #f8f8f8;
+}
+
+.input_type_pass:focus {
+-webkit-box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(224, 74, 49, 0.75);
+}
+
+.select_ums {
+width: 89%;
+padding-left: 5px;
+background: #f8f8f8;
+height: 36px;
+font-size: 20px;
+font-family: 'segoe_uilight';
+color: #919191;
+border: none;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+.select_ums:focus {
+-webkit-box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+-moz-box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+}
+
+.select_ums_store {
+width: 97%;
+padding-left: 5px;
+background: #f8f8f8;
+height: 36px;
+font-size: 20px;
+font-family: 'segoe_uilight';
+color: #919191;
+border: none;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+}
+
+.select_ums_store:focus {
+-webkit-box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+-moz-box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+box-shadow: 2px 2px 1px 0px rgba(224, 74, 49, 0.75);
+}
+
+.table {
+width: 610px;
+float: left;
+}
+
+.login_button {
+position: absolute;
+bottom: -40px;
+left: 267px;
+}
+
+.forget_password {
+position: absolute;
+bottom: -55px;
+left: 0px;
+}
+
+.staff_mail {
+position: absolute;
+bottom: -55px;
+right: 70px;
+}
+
+.student_mail {
+position: absolute;
+bottom: -60px;
+right: -6px;
+}
+
+.login_tbl td {
+vertical-align: top;
+width: 50%;
+}
+
+.login_tbl td input,
+.login_tbl td select {
+float: left;
+}
+
+.login_tbl td span {
+float: left;
+}
+
+.password_change {
+font-family: 'segoe_uilight';
+padding: 3px;
+margin-bottom: 15px;
+text-align: center;
+background: #B368D9;
+-webkit-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+-moz-box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+box-shadow: 1px 1px 1px 0px rgba(50, 50, 50, 0.75);
+color: #fff;
+width: 100%;
+}
+
+.login_tbl span {
+background-color: #7CAF00;
+float: right;
+margin-top: 0;
+border-bottom: 2px solid #000;
+}
